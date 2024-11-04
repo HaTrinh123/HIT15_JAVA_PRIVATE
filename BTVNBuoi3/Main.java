@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        Student student = new Student(); // Khởi tạo đối tượng Student trống
+        Student student = new Student();
         boolean exit = false;
 
         while (!exit) {
@@ -14,7 +14,7 @@ public class Main {
             System.out.println("3. Thoát");
             System.out.print("Chọn chức năng: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // Đọc bỏ dòng mới sau khi nhập số
+            sc.nextLine();
 
             switch (choice) {
                 case 1:
@@ -24,7 +24,7 @@ public class Main {
                     student.setFullName(sc.nextLine());
                     System.out.print("Nhập tuổi: ");
                     student.setAge(sc.nextByte());
-                    sc.nextLine(); // Đọc bỏ dòng mới sau khi nhập số
+                    sc.nextLine();
                     System.out.print("Nhập giới tính: ");
                     student.setGetGender(sc.nextLine());
                     System.out.print("Nhập số điện thoại: ");
