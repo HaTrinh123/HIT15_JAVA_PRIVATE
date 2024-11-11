@@ -1,4 +1,4 @@
-package BTVNBuoi3;
+package Buoi3;
 
 public class Account {
     private int id;

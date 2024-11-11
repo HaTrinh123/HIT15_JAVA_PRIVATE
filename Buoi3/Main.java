@@ -1,4 +1,6 @@
-package BTVNBuoi3;
+package Buoi3;
+import BTVNBuoi3.Student;
+
 import java.util.Scanner;
 
 public class Main {
